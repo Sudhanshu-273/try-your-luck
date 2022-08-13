@@ -1,9 +1,61 @@
+body{
+    background-color: #ffb9f0;
+}
+
 .container, #result, #fname, #sname{
     font-size: 30px;
+}
+
+.container{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+#fetch{
+    position:absolute;
+    top: 200px;
+    left: 445px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(190, 190, 190, 0);
+    color: rgb(89, 2, 100);
+}
+
+#fetch:hover{
+    cursor: pointer;
+}
+
+#fetch:active{
+    background-color: white;
+}
+
+input{
+    display:inline-block;
+    padding: 10px;
+    margin-left: 80px;
+    border-radius: 8px;
+    background-color: #ffd1f5;
+}
+
+input:focus{
+    background-color: white;
+    color: black;
 }
 
 
 
 #fetch{
     font-size: 30px;
+}
+
+#result{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 500px;
+    left: 450px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }

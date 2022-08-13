@@ -21,6 +21,6 @@ calc.addEventListener('click', function(){
     xhr.onload = function(){
         var res = JSON.parse(xhr.response);
         console.log(res);
-        output.innerText = `${girl.value} and ${boy.value}\n\n${res.percentage} %\n${res.result}`;
+        output.innerText = `${girl.value} and ${boy.value}\n\n${res.percentage} %\n\n${res.result}`;
     }
 });
